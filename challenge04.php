@@ -9,7 +9,7 @@ function phoneNumber(string $str) : bool {
     if (preg_match("/[^0-9]/", $str)) {
         return false; 
     } if (preg_match("/[0-9]/", $str) {
-        return true
+        return true;
     };
 }
 
